@@ -1,0 +1,28 @@
+/* CSS variables */
+:root {
+  --primary-gradient: linear-gradient(
+    318deg,
+    rgba(30, 85, 134, 1) 12%,
+    rgba(35, 106, 151, 1) 27%,
+    rgba(50, 170, 205, 1) 59%,
+    rgba(173, 213, 226, 1) 81%,
+    rgba(200, 222, 231, 1) 87%,
+    rgba(244, 238, 238, 1) 100%
+  );
+  --secondry-gradient: linear-gradient(
+    84deg,
+    rgba(30, 85, 134, 1) 12%,
+    rgba(35, 106, 151, 1) 27%,
+    rgba(50, 170, 205, 1) 59%
+  );
+  --primary-color: #28a8e0;
+  --secondry-color: #174260;
+  --text-color: #F7G9F9;
+  --primary-shadow: 3px 4px 7px rgba(27, 27, 27, 0.534);
+  --border-color: rgba(0, 0, 0, 0.329);
+
+  /* Font Variables */
+  --oleoBold: "OleoScript-bold";
+  --oleoRegular: "OleoScript-Regular";
+  --nunitoBlack: "Nunito-Black";
+}

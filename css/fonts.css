@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "OleoScript-bold";
+  src: url(../assets/fonts/Oleo_Script/OleoScript-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OleoScript-Regular";
+  src: url(../assets/fonts/Oleo_Script/OleoScript-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito-Black";
+  src: url(../assets/fonts/Nunito/Nunito-Black.ttf);
+}

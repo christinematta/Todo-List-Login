@@ -1,0 +1,151 @@
+/* css variables */
+@import url(./variables.css);
+
+/* import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+html,
+body {
+  height: 100%;
+  /* overflow: hidden; */
+  background: var(--primary-gradient);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-height: 610px;
+}
+
+/* Start Login Page */
+/* Start carsouel Area  */
+.container .main-box {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.carousel-indicators {
+  top: 95%;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 450px;
+}
+
+/* End carsouel Area*/
+
+/* Start login Area */
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  background: var(--secondry-gradient);
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: var(--primary-shadow);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background: whitesmoke;
+  color: var(--primary-color);
+  outline: none;
+}
+
+.titles {
+  margin-bottom: 2.2rem;
+}
+
+form {
+  height: 55%;
+  max-height: 280px;
+  margin-top: 20%;
+}
+
+form h4 {
+  font-family: var(--oleoBold);
+  color: var(--secondry-color);
+  padding: 0;
+  margin: 0;
+  padding-left: 5%;
+}
+
+form .form-group {
+  text-align: left;
+  border: 1px solid var(--border-color);
+  margin-top: 5%;
+  margin-right: 10%;
+  border-radius: 30px;
+}
+
+form .form-group .form-input {
+  width: 40%;
+  padding: 3% 6%;
+  background: transparent;
+  border: none;
+  font-family: var(--nunitoBlack);
+  font-size: 14px;
+  overflow: hidden;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form .input-icon {
+  /* display: inline; */
+  color: var(--border-color);
+  float: right;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+
+form .btn-login {
+  float: none;
+  padding: 2% 15%;
+  margin: 3% 27%;
+}
+
+/* End login Area */
+
+/* Start social-media Area */
+.social-media {
+  text-align: center;
+}
+
+.social-media a {
+  background-color: white;
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: var(--primary-color);
+  box-shadow: none;
+}
+
+/* End social-media Area */
+
+/* End Login Page */
+
+/* ---------------------------------------------- */
